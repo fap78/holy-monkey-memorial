@@ -1,179 +1,77 @@
-"""-------------------- SECTION :: SETUP --------------------"""
-# (LIBRARIES)
-# system libraries
+# -------------------- | LIBRARIES and MODULES and FILES |
+# (libraries)
 import sys
-import sysconfig
-# end
 
-# ref
-#
-# end
+# (modules)
+from xml.etree import ElementTree as xt
 
-# (MODULES),
-# system time
-from time import sleep as sp
-# end
+# (files)
 
-# windows control [os]
-from os import system as st
-# end
+# -------------------- | END |
 
-"""-------------------- SECTION :: FILES AND DATA -----------"""
-# (FILES : type <- referential)
-# ref
-#
-# end
+"""<------------------------------------------------------ SECTION ---------------------------------------------------------->"""
 
-# ref
-#
-# end
+# -------------------- | VARIABLES |
+# (system)
 
-# (FILES : type <- data)
-# ref
-#
-# end
+# (object)
 
-# ref
-#
-# end
+# -------------------- | END |
 
-# (VARIABLES)
-# ref
-#
-# end
+# -------------------- | ARRAYS |
+# (lists)
 
-# ref
-#
-# end
+# (dictionaries)
 
-"""-------------------- SECTION :: DATA STRUCTURES ----------"""
-# (ARRAYS: type <- list)
-# ref
-#
-# end
+# (tuples)
 
-# ref
-#
-# end
+# (linked lists)
 
-# (ARRAYS: type <- tuple)
-# ref
-#
-# end
+# -------------------- | END |
 
-# ref
-#
-# end
+# -------------------- | CLASSES |
+# (class)
+class Type():
+    #
+    pass
+    # end of class
 
-# (ARRAYS: type <- linked lists)
-# ref
-#
-# end
+# -------------------- | END |
 
-# ref
-#
-# end
+# -------------------- | FUNCTIONS |
+# (function)
+def xml(e):
+    pass
+    # end of function
 
-# (DICTIONARIES)
-# ref
-#
-# end
+# -------------------- | END |
 
-# ref
-#
-# end
+"""<------------------------------------------------------ SECTION ---------------------------------------------------------->"""
 
+# -------------------- | UI |
+# (UI libraries)
+import PyQt5
 
-"""-------------------- SECTION :: CLASSES ------------------"""
-# (CLASS: type <- object)
-# ref
-#
-# end
+# (modules)
+from PyQt5.QtWidgets import QMainWindow
 
-# ref
-#
-# end
+# (class UI)
+# window [main]
+class MainWindow(QMainWindow):
+    #
+    pass
+    # end of class
 
+# -------------------- | END |
 
-"""-------------------- SECTION :: FUNCTIONS ----------------"""
-# (FUNCTION: type <- no parameters)
-# clear terminal
-def clsT(e):
-    sp(e)
-    st('cls')
-# end
+"""<------------------------------------------------------ SECTION ---------------------------------------------------------->"""
 
-# ref
-#
-# end
+# -------------------- | RUN-TIME |
+# (input)
 
-# (FUNCTION: type <- parameters)
-# ref
-#
-# end
+# (process)
 
-# ref
-#
-# end
+# (output)
 
+# -------------------- | END |
 
-"""-------------------- SECTION :: PROCESSES ----------------"""
-# (PROCESS: type <- !system)
-# clear terminal
-clsT(2)
-# end
-
-# ref
-#
-# end
-
-# (PROCESS: type <- !type)
-# ref
-#
-# end
-
-# ref
-#
-# end
-
-# (PROCESS: type <- !type)
-# ref
-#
-# end
-
-# ref
-#
-# end
-
-# (PROCESS: type <- !type)
-# ref
-#
-# end
-
-# ref
-#
-# end
-
-
-"""-------------------- SECTION :: UI -----------------------"""
-# (CLASS: type <- QMainWindow)
-# ref
-#
-# end
-
-# ref
-#
-# end
-
-
-"""-------------------- SECTION :: TESTS --------------------"""
-# (TEST: type <- !type)
-# ref
-#
-# end
-
-# ref
-#
-# end
-
-"""-------------------- ABORT! :: ALIENS ARE COMING-----------"""
