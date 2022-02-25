@@ -60,3 +60,10 @@ TEST
 ▪	SELECT DATA from TABLE patient with patientID, patientForename, patientSurname, patientMedicare
 ▪	SELECT DATA from TABLE item with itemID, itemCode, itemCost
 ▪	SELECT DATA from TABLE surgeon with surgeonID, surgeonRegistration, surgeonType
+
+▪	NEW VIEW from TABLE surgeon WHERE surgeonTypeCode='t-PAS' and return {table}
+▪	NEW VIEW from TABLE surgeon WHERE surgeonTypeCode='t-NEU' and return {table}
+
+▪	NEW VIEW from TABLE patient WHERE patientGender='Female' and return {table}
+▪	NEW VIEW from TABLE patient WHERE patientBloodType='A-POSITIVE' and return {table}
+▪	NEW VIEW from TABLE patient WHERE patientBloodType='B-POSITIVE' and return {table}
