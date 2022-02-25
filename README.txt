@@ -50,3 +50,13 @@ NEW DATA from surgeons
 TEST
 
 **PULL REQUEST :: TASK A :: BRANCH:SQL**
+
+
+▪	__db__.py
+▪	SELECT DATA from TABLE patient using wildcard
+▪	SELECT DATA from TABLE item using wildcard
+▪	SELECT DATA from TABLE surgeon using wildcard
+
+▪	SELECT DATA from TABLE patient with patientID, patientForename, patientSurname, patientMedicare
+▪	SELECT DATA from TABLE item with itemID, itemCode, itemCost
+▪	SELECT DATA from TABLE surgeon with surgeonID, surgeonRegistration, surgeonType
