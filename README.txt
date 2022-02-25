@@ -21,14 +21,15 @@ NEW TABLE [patients] and assign PRIMARY KEY and UNIQUE and DATA TYPES
 			PRIMARY KEY (patientID)
 
 NEW TABLE [items] and assign PRIMARY KEY and UNIQUE and DATA TYPES
-			itemID text NOT NULL,
-			itemCode text,
-			itemCost real,
-			itemRebate text,
-			itemSupportCategory text,
-			
-			UNIQUE (itemID)
-			PRIMARY KEY (itemID)
+			    itemID text NOT NULL,
+			    itemCode text,
+			    itemCost real,
+			    itemRebate text,
+			    itemSupportCategory text,
+			    surgeonTypeCode text,
+
+			    UNIQUE (itemID)
+			    PRIMARY KEY (itemID)
 
 NEW TABLE [surgeons] and assign PRIMARY KEY and UNIQUE and DATA TYPES
 			surgeonID text NOT NULL,
@@ -37,7 +38,7 @@ NEW TABLE [surgeons] and assign PRIMARY KEY and UNIQUE and DATA TYPES
 			surgeonType text,
 			surgeonTypeCode text,
 			surgeonRegistration text,
-			
+
 			UNIQUE (surgeonID)
 			PRIMARY KEY (surgeonID)
 
